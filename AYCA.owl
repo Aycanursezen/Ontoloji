@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dc1="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#dc/elements"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#ISBN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#ISBN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Price"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Books -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Books"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Historical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Historical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#The_Ottoman_Empire_And_Europe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#The_Ottoman_Empire_And_Europe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/untitled-ontology-8#Historical"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9786058301184</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.20</Price>
+        <dc:creator>Halil İnalcık</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:language>İngilizce</dc:language>
+        <dc:publisher>Kronik Kitap</dc:publisher>
+        <dc:title>The Ottoman Empire And Europe</dc:title>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
