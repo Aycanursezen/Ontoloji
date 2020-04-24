@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2020/3/ontology#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2020/3/ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dc1="http://www.semanticweb.org/user/ontologies/2020/3/ontology#dc/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/user/ontologies/2020/3/ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#dc/elements -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#dc/elements"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#ISBN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#ISBN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Price"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Books -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Books"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Fahrenheit_451 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Fahrenheit_451">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9786053757818</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.40</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Ray Bradbury</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İthaki Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fahrenheit 451</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Fahrenheit 451</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Hayvan_Çiftliği -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Hayvan_Çiftliği">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9789750719387</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.00</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">George Orwell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Can Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Hayvan Çiftliği</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Hayvan Çiftliği</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Olağan_Üstü_Bir_Gece -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Olağan_Üstü_Bir_Gece">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9786053326090</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.80</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Stefan Zweig</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Olağan Üstü Bir Gece</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Olağan Üstü Bir Gece</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Simyacı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Simyacı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9789750726439</ISBN>
+        <Price>16,45</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Paulo Coelho</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Can Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Simyacı</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Simyacı</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#The_Ottoman_Empire_And_Europe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#The_Ottoman_Empire_And_Europe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#History"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9786058301184</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.20</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Halil İnalcık</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İngilizce</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Kronik Kitap</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The Ottoman Empire And Europe</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;The Ottoman Empire And Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#The_Psychology_of_Love -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#The_Psychology_of_Love">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Psychology"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9786051911069</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.56</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Sigmund Freud</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İngilizce</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Alter Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The Psychology of Love</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;The Psychology of Love</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Uçurtma_Avcısı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Uçurtma_Avcısı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9789752891456</ISBN>
+        <Price>26,13</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Khaled Hosseini</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Everest Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Uçurtma Avcısı</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Uçurtma Avcısı</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2020/3/ontology#Şeker_Portakalı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Şeker_Portakalı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/3/ontology#Literature"/>
+        <ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9789750738609</ISBN>
+        <Price rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">16,45</Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Jose Mauro De Vasconcelos</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Can Çocuk Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Şeker Portakalı</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot; &gt;Şeker Portakalı</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
