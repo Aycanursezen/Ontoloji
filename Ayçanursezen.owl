@@ -146,7 +146,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İthaki Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fahrenheit 451</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Fahrenheit 451</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fahrenheit 451</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -162,7 +162,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Can Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Hayvan Çiftliği</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Hayvan Çiftliği</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Hayvan Çiftliği</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -178,7 +178,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İş Bankası Kültür Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Olağan Üstü Bir Gece</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Olağan Üstü Bir Gece</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Olağan Üstü Bir Gece</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -194,7 +194,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Can Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Simyacı</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Simyacı</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Simyacı</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -210,7 +210,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İngilizce</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Kronik Kitap</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The Ottoman Empire And Europe</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;The Ottoman Empire And Europe</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The Ottoman Empire And Europe</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -226,7 +226,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">İngilizce</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Alter Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The Psychology of Love</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;The Psychology of Love</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The Psychology of Love</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -242,7 +242,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Everest Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Uçurtma Avcısı</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot;&gt;Uçurtma Avcısı</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Uçurtma Avcısı</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -258,7 +258,7 @@
         <dc:language rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Türkçe</dc:language>
         <dc:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Can Çocuk Yayınları</dc:publisher>
         <dc:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Şeker Portakalı</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">xml:lang=&quot;owl 2 web ontology language&quot; &gt;Şeker Portakalı</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Şeker Portakalı</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
